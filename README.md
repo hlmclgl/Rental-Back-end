@@ -17,41 +17,41 @@ Bu katman veritabanı nesneleri için oluşturulmuştur. Concrete klasöründe s
 
 :open_file_folder:[Concrete](https://github.com/hlmclgl/Rental-Back-end/tree/master/Entities/Concrete)
  
-- :page_facing_up:[Brand](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/Concrete/Brand.cs)
+- :page_facing_up:[Brand](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/Concrete/Brand.cs)
 
-- :page_facing_up:[Car](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/Concrete/Car.cs)
+- :page_facing_up:[Car](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/Concrete/Car.cs)
 
-- :page_facing_up:[CarImage](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/Concrete/CarImage.cs)
+- :page_facing_up:[CarImage](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/Concrete/CarImage.cs)
 
-- :page_facing_up:[Color](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/Concrete/Color.cs)
+- :page_facing_up:[Color](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/Concrete/Color.cs)
 
-- :page_facing_up:[CreditCard](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/Concrete/CreditCard.cs)
+- :page_facing_up:[CreditCard](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/Concrete/CreditCard.cs)
 
-- :page_facing_up:[Customer](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/Concrete/Customer.cs)
+- :page_facing_up:[Customer](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/Concrete/Customer.cs)
 
-- :page_facing_up:[CustomerFindexScore](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/Concrete/CustomerFindeksScore.cs)
+- :page_facing_up:[CustomerFindexScore](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/Concrete/CustomerFindeksScore.cs)
 
-- :page_facing_up:[PaymentTest](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/Concrete/PaymentTest.cs)
+- :page_facing_up:[PaymentTest](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/Concrete/PaymentTest.cs)
 
-- :page_facing_up:[Rental](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/Concrete/Rental.cs)
+- :page_facing_up:[Rental](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/Concrete/Rental.cs)
 
-:open_file_folder:[Dto's](https://github.com/hlmclgl/RentaCarProject/tree/master/Entities/DTO's)
+:open_file_folder:[Dto's](https://github.com/hlmclgl/Rental-Back-end/tree/master/Entities/DTO's)
 
-- :page_facing_up:[CarDetailDto](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/DTO's/CarDetailDto.cs)
+- :page_facing_up:[CarDetailDto](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/DTO's/CarDetailDto.cs)
 
-- :page_facing_up:[CarImageDto](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/DTO's/CarImageDto.cs)
+- :page_facing_up:[CarImageDto](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/DTO's/CarImageDto.cs)
 
-- :page_facing_up:[CustomerDetailDto](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/DTO's/CustomerDetailDto.cs)
+- :page_facing_up:[CustomerDetailDto](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/DTO's/CustomerDetailDto.cs)
 
-- :page_facing_up:[RentalDetailDto](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/DTO's/RentalDetailDto.cs)
+- :page_facing_up:[RentalDetailDto](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/DTO's/RentalDetailDto.cs)
 
-- :page_facing_up:[UserDetailDto](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/DTO's/UserDetailDto.cs)
+- :page_facing_up:[UserDetailDto](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/DTO's/UserDetailDto.cs)
 
-- :page_facing_up:[UserForLoginDto](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/DTO's/UserForLoginDto.cs)
+- :page_facing_up:[UserForLoginDto](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/DTO's/UserForLoginDto.cs)
 
-- :page_facing_up:[UserForRegisterDto](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/DTO's/UserForRegisterDto.cs)
+- :page_facing_up:[UserForRegisterDto](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/DTO's/UserForRegisterDto.cs)
 
-- :page_facing_up:[UserForUpdateDto](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/DTO's/UserForUpdateDto.cs)
+- :page_facing_up:[UserForUpdateDto](https://github.com/hlmclgl/Rental-Back-end/blob/master/Entities/DTO's/UserForUpdateDto.cs)
 
 ## Data Access Layer ##
 
@@ -61,49 +61,49 @@ Veritabanı ile ilgili gerçekleşen operasyonlar ve veritabanı bağlantıları
 
 - :pushpin: Microsoft.EntityFrameworkCore.SqlServer(v3.1.11)
 
-:open_file_folder:[Abstract](https://github.com/hlmclgl/RentaCarProject/tree/master/DataAccess/Abstract)
+:open_file_folder:[Abstract](https://github.com/hlmclgl/Rental-Back-end/tree/master/DataAccess/Abstract)
 
-- :page_facing_up:[IBrandDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Abstract/IBrandDal.cs)
+- :page_facing_up:[IBrandDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Abstract/IBrandDal.cs)
   
-- :page_facing_up:[ICarDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Abstract/ICarDal.cs)
+- :page_facing_up:[ICarDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Abstract/ICarDal.cs)
 
-- :page_facing_up:[ICarImageDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Abstract/ICarImageDal.cs)
+- :page_facing_up:[ICarImageDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Abstract/ICarImageDal.cs)
 
-- :page_facing_up:[IColorDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Abstract/IColorDal.cs)
+- :page_facing_up:[IColorDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Abstract/IColorDal.cs)
 
-- :page_facing_up:[ICreditCardDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Abstract/ICreditCardDal.cs)
+- :page_facing_up:[ICreditCardDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Abstract/ICreditCardDal.cs)
 
-- :page_facing_up:[ICustomerDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Abstract/ICustomerDal.cs)
+- :page_facing_up:[ICustomerDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Abstract/ICustomerDal.cs)
 
-- :page_facing_up:[ICustomerFindeksScoreDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Abstract/ICustomerFindeksScoreDal.cs)
+- :page_facing_up:[ICustomerFindeksScoreDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Abstract/ICustomerFindeksScoreDal.cs)
 
-- :page_facing_up:[IRentaCarDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Abstract/IRentACarDal.cs)
+- :page_facing_up:[IRentaCarDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Abstract/IRentACarDal.cs)
 
-- :page_facing_up:[IUserDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Abstract/IUserDal.cs)
+- :page_facing_up:[IUserDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Abstract/IUserDal.cs)
 
-:open_file_folder:[Concrete](https://github.com/hlmclgl/RentaCarProject/tree/master/DataAccess/Concrete)
+:open_file_folder:[Concrete](https://github.com/hlmclgl/Rental-Back-end/tree/master/DataAccess/Concrete)
 
-- :open_file_folder:[Entity Framework](https://github.com/hlmclgl/RentaCarProject/tree/master/DataAccess/Concrete/EntityFramework)
+- :open_file_folder:[Entity Framework](https://github.com/hlmclgl/Rental-Back-end/tree/master/DataAccess/Concrete/EntityFramework)
 
-  - :page_facing_up:[EfBrandDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Concrete/EntityFramework/EfBrandDal.cs)
+  - :page_facing_up:[EfBrandDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Concrete/EntityFramework/EfBrandDal.cs)
 
-  - :page_facing_up:[EfCarDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Concrete/EntityFramework/EfCarDal.cs)
+  - :page_facing_up:[EfCarDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Concrete/EntityFramework/EfCarDal.cs)
 
-  - :page_facing_up:[EfCarImageDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Concrete/EntityFramework/EfCarImageDal.cs)
+  - :page_facing_up:[EfCarImageDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Concrete/EntityFramework/EfCarImageDal.cs)
 
-  - :page_facing_up:[EfColorDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Concrete/EntityFramework/EfColorDal.cs)
+  - :page_facing_up:[EfColorDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Concrete/EntityFramework/EfColorDal.cs)
 
-  - :page_facing_up:[EfCreditCardDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Concrete/EntityFramework/EfCreditCardDal.cs)
+  - :page_facing_up:[EfCreditCardDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Concrete/EntityFramework/EfCreditCardDal.cs)
 
-  - :page_facing_up:[EfCustomerDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Concrete/EntityFramework/EfCustomerDal.cs)
+  - :page_facing_up:[EfCustomerDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Concrete/EntityFramework/EfCustomerDal.cs)
 
-  - :page_facing_up:[EfCustomerFindeksScoreDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Concrete/EntityFramework/EfCustomerFindeksScoreDal.cs)
+  - :page_facing_up:[EfCustomerFindeksScoreDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Concrete/EntityFramework/EfCustomerFindeksScoreDal.cs)
 
-  - :page_facing_up:[EfRentaCarDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Concrete/EntityFramework/EfRentACarDal.cs)
+  - :page_facing_up:[EfRentaCarDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Concrete/EntityFramework/EfRentACarDal.cs)
 
-  - :page_facing_up:[EfUserDal](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Concrete/EntityFramework/EfUserDal.cs)
+  - :page_facing_up:[EfUserDal](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Concrete/EntityFramework/EfUserDal.cs)
 
-  - :page_facing_up:[RentaCarContext](https://github.com/hlmclgl/RentaCarProject/blob/master/DataAccess/Concrete/EntityFramework/RentaCarContext.cs)
+  - :page_facing_up:[RentaCarContext](https://github.com/hlmclgl/Rental-Back-end/blob/master/DataAccess/Concrete/EntityFramework/RentaCarContext.cs)
   
 :link:InMemory klasörü içindekiler veritabanıyla bir bağlantısı olmayıp sadace başlangıç için test amacıyla oluşturulmuştur.
 
@@ -129,9 +129,9 @@ DataAcess katmanında yer alan operasyonlara ait iş kuralları bu katmanda yer 
 - :pushpin:Microsoft.Extensions.DependencyInjection(v5.0.1)
 
 
-:open_file_folder: [Abstract](https://github.com/hlmclgl/RentaCarProject/tree/master/Business/Abstract)
+:open_file_folder: [Abstract](https://github.com/hlmclgl/Rental-Back-end/tree/master/Business/Abstract)
 
-- :page_facing_up:[IAuthService](https://github.com/hlmclgl/RentaCarProject/blob/master/Business/Abstract/IAuthService.cs)
+- :page_facing_up:[IAuthService](https://github.com/hlmclgl/Rental-Back-end/blob/master/Business/Abstract/IAuthService.cs)
 
 - :page_facing_up:[IBrandService](https://github.com/hlmclgl/RentaCarProject/blob/master/Business/Abstract/IBrandService.cs)
 
