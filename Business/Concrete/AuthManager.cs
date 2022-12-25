@@ -67,6 +67,7 @@ namespace Business.Concrete
             return new SuccessDataResult<User>(user, Messages.RegisterSuccess);
         }
 
+        // Güncelleme için oluşturulan Data Transformation Object (DTO) set edilen user bilgileriyle costumer bilgilerini mapler.
         public IDataResult<UserForUpdateDto> Update(UserForUpdateDto userForUpdateDto)
         {
             var user = _userService.GetById(userForUpdateDto.UserId);
