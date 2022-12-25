@@ -427,14 +427,14 @@ Core katmanı operasyonların generic yapılarla genelleştirildiği, her proje 
  
  ### :e-mail:***E-mail: hlmclgl@gmail.com*** ###
 
-# RentaCarProject
+# Araç Sepeti.com
 
 ## English Description ##
 
 ![Anasayfa 1](https://raw.githubusercontent.com/sevdeskmn/Rental-front-end/main/images/cars.png)
 
 
-RentaCarProject is a car rental project that belongs to the C# programming language, adhering to SOLID principles and with an N-layer architecture structure; it is still under development. You are currently studying the back-end part of the project.
+Araç Sepeti is a car rental project that belongs to the C# programming language, adhering to SOLID principles and with an N-layer architecture structure; it is still under development. You are currently studying the back-end part of the project.
 
 ***:link:You can arrive at the front-end section [from here](https://github.com/sevdeskmn/Rental-front-end).***
 
@@ -442,7 +442,7 @@ The database was created based on the SQL Server Object Explorer section in Visu
 
 :open_file_folder:[Database](https://github.com/hlmclgl/Rental-Back-end/tree/master/DB)
 
-RentaCarProject consists of Entities, DataAccess, and Business layers. Initially, the ConsoleUI layer was used to simulate operations on these layers. Later, Postman was used to test operations with WebAPI configuration in the project. Let's examine these layers closely:
+Araç Sepeti.com consists of Entities, DataAccess, and Business layers. Initially, the ConsoleUI layer was used to simulate operations on these layers. Later, Postman was used to test operations with WebAPI configuration in the project. Let's examine these layers closely:
 
 ## Entities Layer ##
 This layer is created for database objects. In the Concrete folder, there are only 'classes 'created for tables, while in the DTOs folder section, there are 'classes' created to combine properties in different tables. You can review the details using the links at the bottom.
