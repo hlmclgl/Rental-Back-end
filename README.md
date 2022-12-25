@@ -8,14 +8,14 @@ RentaCarProject, SOLID prensiplerine bağlı kalınarak ve N-Katmalı mimari yap
 
 Veritabanı, Visual Studio 2019 içindeki SQL Server Object Explorer kısmından yola çıkılarak oluşturulmuştur. Alt kısımda bu veritabanına ait bazı tabloların alan isimlerini ve veri tiplerini görebilirsiniz.
 
-:open_file_folder:[Database](https://github.com/hlmclgl/RentaCarProject/tree/master/DB)
+:open_file_folder:[Database](https://github.com/hlmclgl/Rental-Back-end/tree/master/DB)
 
 RentaCarProject; Entities, DataAccess ve Business katmanlarından oluşmaktadır. Başlangıç olarak bu katmanlardaki operasyonların simülasyonu için ConsoleUI katmanı kullanılmıştır. Daha sonrasında ise projede WebAPI yapılandırmasıyla beraber operasyonların testi için Postman kullanılmaya başlanılmıştır. Bu katmanları yakından inceleyelim:
 
 ## Entities Layer ##
 Bu katman veritabanı nesneleri için oluşturulmuştur. Concrete klasöründe sadace tablolar için oluştrulmuş 'Class'lar bulunurken DTOs klasör kısmında ise farklı tablolardaki özellikleri birleştirmek amacıyla oluşturulan 'Class'lara yer verilmiştir. Alt kısımdaki bağlantıları kullanarak detayları inceleyebilirsiniz.
 
-:open_file_folder:[Concrete](https://github.com/hlmclgl/RentaCarProject/tree/master/Entities/Concrete)
+:open_file_folder:[Concrete](https://github.com/hlmclgl/Rental-Back-end/tree/master/Entities/Concrete)
  
 - :page_facing_up:[Brand](https://github.com/hlmclgl/RentaCarProject/blob/master/Entities/Concrete/Brand.cs)
 
