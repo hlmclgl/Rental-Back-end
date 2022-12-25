@@ -49,6 +49,7 @@ namespace Business.Concrete
             return new SuccessDataResult<User>(userToCheck, Messages.SuccessLogin);
         }
 
+        ///Girilen verilerin instance üzerinden maplenmesi.
         public IDataResult<User> Register(UserForRegisterDto userForRegisterDto, string password)
         {
             byte[] passwordHash, passwordSalt;
