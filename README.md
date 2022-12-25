@@ -1,16 +1,19 @@
-# RentaCarProject
+# Araç Sepeti.com
 
 ## English Below ##
 
-RentaCarProject, SOLID prensiplerine bağlı kalınarak ve N-Katmalı mimari yapısıyla C# programlama diline ait; henüz geliştirilme aşamasında olan bir araç kiralama projesidir. Şu anda projenin back-end kısmını incelemektesiniz.
+![Anasayfa 1](https://raw.githubusercontent.com/sevdeskmn/Rental-front-end/main/images/cars.png)
 
-***:link:Projenin front-end kısmına [buradan](https://github.com/hlmclgl/RentaCarProject-Frontend) ulaşabilirsiniz.***
+
+Araç Sepeti, SOLID prensiplerine bağlı kalınarak ve N-Katmalı mimari yapısıyla C# programlama diline ait; henüz geliştirilme aşamasında olan bir araç kiralama projesidir. Şu anda projenin back-end kısmını incelemektesiniz.
+
+***:link:Projenin front-end kısmına [buradan](https://github.com/sevdeskmn/Rental-front-end) ulaşabilirsiniz.***
 
 Veritabanı, Visual Studio 2019 içindeki SQL Server Object Explorer kısmından yola çıkılarak oluşturulmuştur. Alt kısımda bu veritabanına ait bazı tabloların alan isimlerini ve veri tiplerini görebilirsiniz.
 
 :open_file_folder:[Database](https://github.com/hlmclgl/Rental-Back-end/tree/master/DB)
 
-RentaCarProject; Entities, DataAccess ve Business katmanlarından oluşmaktadır. Başlangıç olarak bu katmanlardaki operasyonların simülasyonu için ConsoleUI katmanı kullanılmıştır. Daha sonrasında ise projede WebAPI yapılandırmasıyla beraber operasyonların testi için Postman kullanılmaya başlanılmıştır. Bu katmanları yakından inceleyelim:
+Araç Sepeti.com ; Entities, DataAccess ve Business katmanlarından oluşmaktadır. Başlangıç olarak bu katmanlardaki operasyonların simülasyonu için ConsoleUI katmanı kullanılmıştır. Daha sonrasında ise projede WebAPI yapılandırmasıyla beraber operasyonların testi için Postman kullanılmaya başlanılmıştır. Bu katmanları yakından inceleyelim:
 
 ## Entities Layer ##
 Bu katman veritabanı nesneleri için oluşturulmuştur. Concrete klasöründe sadace tablolar için oluştrulmuş 'Class'lar bulunurken DTOs klasör kısmında ise farklı tablolardaki özellikleri birleştirmek amacıyla oluşturulan 'Class'lara yer verilmiştir. Alt kısımdaki bağlantıları kullanarak detayları inceleyebilirsiniz.
@@ -428,9 +431,12 @@ Core katmanı operasyonların generic yapılarla genelleştirildiği, her proje 
 
 ## English Description ##
 
+![Anasayfa 1](https://raw.githubusercontent.com/sevdeskmn/Rental-front-end/main/images/cars.png)
+
+
 RentaCarProject is a car rental project that belongs to the C# programming language, adhering to SOLID principles and with an N-layer architecture structure; it is still under development. You are currently studying the back-end part of the project.
 
-***:link:You can arrive at the front-end section [from here](https://github.com/hlmclgl/RentaCarProject-Frontend).***
+***:link:You can arrive at the front-end section [from here](https://github.com/sevdeskmn/Rental-front-end).***
 
 The database was created based on the SQL Server Object Explorer section in Visual Studio 2019. At the bottom, you can see the field names and data types of some tables belonging to this database.
 
