@@ -9,7 +9,7 @@ Araç Sepeti, SOLID prensiplerine bağlı kalınarak ve N-Katmalı mimari yapıs
 
 ***:link:Projenin front-end kısmına [buradan](https://github.com/sevdeskmn/Rental-front-end) ulaşabilirsiniz.***
 
-Veritabanı, Visual Studio 2019 içindeki SQL Server Object Explorer kısmından yola çıkılarak oluşturulmuştur. Alt kısımda bu veritabanına ait bazı tabloların alan isimlerini ve veri tiplerini görebilirsiniz.
+Veritabanı, Visual Studio 2022 içindeki SQL Server Object Explorer kısmından yola çıkılarak oluşturulmuştur. Alt kısımda bu veritabanına ait bazı tabloların alan isimlerini ve veri tiplerini görebilirsiniz.
 
 :open_file_folder:[Database](https://github.com/hlmclgl/Rental-Back-end/tree/master/DB)
 
